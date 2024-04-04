@@ -111,7 +111,7 @@
     <property name="plugin-7" type="string" value="whiskermenu">
       <property name="button-title" type="string" value="ArcoLinux  "/>
       <property name="button-icon" type="string" value="start-here-arcolinux"/>
-      <property name="show-button-title" type="bool" value="false"/>
+      <property name="show-button-title" type="bool" value="true"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="category-icon-size" type="int" value="2"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
@@ -125,12 +125,14 @@
       <property name="command-switchuser" type="string" value="xfce4-session-logout -u"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
       <property name="favorites" type="array">
-        <value type="string" value="arcolinux-welcome-app.desktop"/>
-        <value type="string" value="archlinux-tweak-tool.desktop"/>
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="thunar.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="conkyzen.desktop"/>
+        <value type="string" value="arcolinux-welcome-app.desktop"/>
+        <value type="string" value="archlinux-tweak-tool.desktop"/>
+        <value type="string" value="sofirem.desktop"/>
+        <value type="string" value="arcolinux-app-glade.desktop"/>
+        <value type="string" value="archlinux-betterlockscreen.desktop"/>
       </property>
       <property name="recent" type="array">
       </property>
